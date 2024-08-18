@@ -7,8 +7,12 @@ pub mod button;
 pub mod history;
 pub mod indicator;
 pub mod input;
+pub mod label;
+pub mod prelude;
 pub mod scroll;
+pub mod tab;
 pub mod theme;
+pub mod tooltip;
 
 // re-export
 pub use wry;
