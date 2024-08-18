@@ -4,6 +4,8 @@ mod icon;
 mod styled;
 
 pub mod button;
+pub mod checkbox;
+pub mod divider;
 pub mod history;
 pub mod indicator;
 pub mod input;
