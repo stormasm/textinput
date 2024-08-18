@@ -22,7 +22,7 @@ Other widgets include:
 - styled
 - theme
 
-For more details of this code being used please see the workspace branch of this repo
+For more details of this code being used please see the *workspace* branch of this repo
 along with the repo [textinput-test](https://github.com/stormasm/textinput-test).
 
 If you just want the textinput functionality and do not care about the workspace functionality then the *main* branch
