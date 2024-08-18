@@ -31,3 +31,13 @@ pub use styled::*;
 pub fn init(cx: &mut gpui::AppContext) {
     input::init(cx);
 }
+
+rust_i18n::i18n!("locales", fallback = "en");
+use std::ops::Deref;
+pub fn locale() -> impl Deref<Target = str> {
+    rust_i18n::locale()
+}
+
+pub fn set_locale(locale: &str) {
+    rust_i18n::set_locale(locale)
+}
