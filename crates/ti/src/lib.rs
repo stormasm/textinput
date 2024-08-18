@@ -7,6 +7,7 @@ mod styled;
 
 pub mod button;
 pub mod checkbox;
+pub mod context_menu;
 pub mod divider;
 pub mod drawer;
 pub mod history;
@@ -20,6 +21,7 @@ pub mod popover;
 pub mod popup_menu;
 pub mod prelude;
 pub mod scroll;
+pub mod switch;
 pub mod tab;
 pub mod theme;
 pub mod tooltip;
@@ -41,6 +43,7 @@ pub fn init(cx: &mut gpui::AppContext) {
     list::init(cx);
     popover::init(cx);
     popup_menu::init(cx);
+    context_menu::init(cx);
 }
 
 rust_i18n::i18n!("locales", fallback = "en");
